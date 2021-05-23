@@ -30,7 +30,7 @@ Run `printdict.py` script to list the dictionary in format (  ```<indexterm> : <
 $ python3 printdict.py <dict file name>
 ```
 
-To perform query, run `vecsearch.py` script and pass the address of query file, cutoff value, output file name, index file name and dictionary file name as arguments.
+To perform query search, run `vecsearch.py` script and pass the address of query file, cutoff value, output file name, index file name and dictionary file name as arguments.
 
 ```bash
 $ python3 vecsearch.py --query <query file address> --cutoff <cutoff value> --output <output file name> --index <index file name> --dict <dictionary file name>
